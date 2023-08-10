@@ -20,6 +20,7 @@ function ReposPage({ params: { name } }: ReposPageProps) {
 ---
 
 ```bash
+git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/sonersg/next-js-github-api.git
